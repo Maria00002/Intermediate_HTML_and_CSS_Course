@@ -1,0 +1,14 @@
+p {
+    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+}
+
+@font-face {
+    font-family: "myFont";
+    src: url("myFont.woff2");
+}
+
+html {
+    font-family: "myFont","Bitstream Vera Serif", serif;
+}
+
+

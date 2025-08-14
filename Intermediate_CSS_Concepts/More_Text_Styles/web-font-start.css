@@ -1,0 +1,59 @@
+/* General setup */
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans.woff2') format('woff2'),
+        url('fonts/OpenSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('fonts/Rubik-Regular.woff2') format('woff2'),
+        url('fonts/Rubik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+html {
+  font-size: 10px;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h1,h2 {
+    font-family: "Open Sans", serif;
+    letter-spacing: 0.2rem;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  word-spacing: 0.6rem;
+  letter-spacing: 0.1rem;
+  font-family: "Rubik", serif;
+}
+
+
+
