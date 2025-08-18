@@ -9,7 +9,7 @@
  */
 
 
-div {
+/* div {
     border: 0.5rem outset pink;
     outline: 0.5rem solid khaki;
     box-shadow: 0 0 0 2rem skyblue;
@@ -18,4 +18,73 @@ div {
     margin: 2rem;
     padding: 1rem;
     outline-offset: 0.5rem;
+} */
+
+
+pre {
+    margin: 20px; 
+    padding: 20px;
+    width: 80%;
+    height: 50px;
 }
+
+pre#example-1 {
+    border: solid 10px;
+    border-radius: 10px 40px 40px 10px;
+}
+
+
+pre#example-2 {
+    border: groove 1rem red;
+    border-radius: 2em;
+}
+
+pre#example-3 {
+    background: gold;
+    border: ridge gold;
+    border-radius: 13em/3em;
+}
+
+pre#example-4 {
+    border: none;
+    border-radius: 40px 10px;
+    background: gold;
+}
+    
+pre#example-5 {
+    border: none;
+    border-radius: 50%;
+    background: burlywood;
+}
+
+pre#example-6 {
+    border: dotted;
+    border-width: 10px 4px;
+    border-radius: 10px 40px;
+}
+
+pre#example-7 {
+    border: dashed;
+    border-width: 2px 4px;
+    border-radius: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
