@@ -54,16 +54,32 @@ article p::first-letter {
     background-color: yellow;
 } */
 
-.box::before {
+/* .box::before {
     content: "";
     display: block;
     width: 100px;
     height: 100px;
     background-color: rebeccapurple;
     border: 1px solid black;
+} */
+
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
+/* Add styles here */
+
+div > h1 {
+    color:blue;
 }
 
+div > h2 {
+    color: white;
+    background-color: blue;
+}
 
+div > p > span {
+    font-size: 200%;
+}
 
 
 
