@@ -104,7 +104,7 @@ span[class="alert go"] {
 } */
 
 
-body {
+/* body {
   font: 1.2em / 1.5 sans-serif;
 }
 * {
@@ -120,10 +120,10 @@ td,
 th {
   padding: 0.2em;
   text-align: left;
-}
+} */
 
 /* Add styles here */
-a:link {
+/* a:link {
     color: orange;
 }
 
@@ -146,12 +146,21 @@ a:hover{
 tbody tr:nth-child(2n) {
     background-color: #333333;
     color: white;
+} */
+
+body {
+  font: 1.2em / 1.5 sans-serif;
 }
 
+/* Add styles here */
+h2 + p {
+    color: red;
+}
 
-
-
-
+ul.list > li {
+  list-style-type: none;
+  border-bottom: 1px solid grey;
+}
 
 
 
