@@ -1,0 +1,30 @@
+:root {
+    --header: 3rem;
+    --footer: 40px;
+    --main: calc(100vh - calc(var(--header) + var(--footer)));
+}
+
+#header {
+    height:var(--header);
+    background: blue;
+}
+
+#mainContent {
+    height:var(--main);
+    background: white;
+}
+
+#footer {
+    height:var(--footer);
+    background: grey;
+}
+
+
+
+
+
+
+
+
+
+
