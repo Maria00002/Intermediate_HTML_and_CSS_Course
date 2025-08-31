@@ -1,0 +1,30 @@
+:root {
+    /* --name: value; */
+    --primary-clr: orange;
+    --secondary-clr: steelblue;
+}
+
+
+body {
+    color: var(--primary-clr);
+}
+
+h1 {
+    color: var(--secondary-clr);
+}
+
+.intro {
+
+    /* color: var(--secondary-clr); */
+    --secondary-clr: green;
+}
+
+.sales-points {
+    color: var(--secondary-clr, yellow);
+}
+
+
+
+
+
+
